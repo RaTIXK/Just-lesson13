@@ -5,10 +5,10 @@ public class Main {
         Youtube youtube = new Youtube();
         Cxeni cxeni = new Cxeni();
         youtube.subscribe(cxeni);
-
         youtube.setTitle("Youtube.com");
 
 
         youtube.unsubscribe(cxeni);
+        youtube.setTitle("YouTube.com");
     }
 }
